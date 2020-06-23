@@ -1,0 +1,22 @@
+What are the benefits of using version control?
+Having a GitHub repo makes it easy for you to keep track of collaborative and personal projects - all files necessary for certain analyses can be held together and people can add in their code, graphs, etc. as the projects develop. Each file on GitHub has a history, making it easy to explore the changes that occurred to it at different time points. You can review other people’s code, add comments to certain lines or the overall document, and suggest changes. For collaborative projects, GitHub allows you to assign tasks to different users, making it clear who is responsible for which part of the analysis. You can also ask certain users to review your code. For personal projects, version control allows you to keep track of your work and easily navigate among the many versions of the files you create, whilst also maintaining an online backup.
+
+How to get started
+Please register on the Github website.
+
+If you are on a personal Windows machine, download and install Git for your operating system. Below are some recommended installation instructions, to keep things simple. However, if you know what these options do, and want to change them to suit you, go ahead:
+
+For “Select Components”, check:
+“Git Bash Here”
+“Git GUI Here”
+“Git LFS (Large File Support)”
+“Associate .git* …”
+“Associate .sh …”
+When prompted to choose the default editor, pick Nano (a simple terminal editor) or Notepad++ (a simple graphical editor):
+For “Adjust your PATH environment”, select: “Use Git from Git Bash only”
+For “Choose HTTPS transport backend”, select: “Use the OpenSSL library”
+For “Configure the line ending conversions”, select: “Checkout Windows-style,…”
+For “Configure the terminal emulator …”, select: “Use MinTTY …”
+For “Configure extra options”, select: “Enable file system caching”
+“Enable Git Credential Manager”
+If you are on a personal Mac machine, install Git via Homebrew, which is a package manager for command line programs on Mac. First, open a terminal, which can be found at ~/Application/Utilities/Terminal.app. Then, copy and paste this line into the terminal and hit “Enter”:
