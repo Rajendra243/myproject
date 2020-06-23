@@ -1,0 +1,368 @@
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;style&gt;
+* {
+margin: 0px;
+padding: 0px;
+}
+
+.box {
+
+border-style: solid;
+border-color: blue;
+border-width: 0.1px;
+
+border-radius: 4px;
+width: 500px;
+height: 650px;
+margin-left: 500px;
+margin-top: 50px;
+box-shadow: 2px 4px 5px 7px
+lightgrey;
+}
+
+h1 {
+font-size: 20px;
+font-family: times-new-roman;
+text-transform: uppercase;
+margin-top: 9px;
+margin-left: 30px;
+border-bottom: 1.5px solid black;
+
+width: 85px;
+color: orangered;
+
+}
+
+.facebook {
+border-style: solid;
+border-color: dodgerblue;
+border-width: 1px;
+border-radius: 4px;
+color: white;
+background-color: blue;
+width: 200px;
+height: 35px;
+font-size: 13px;
+font-weight: bold;
+
+text-decoration: none;
+margin-top: 30px;
+opacity: 0.6;
+margin-left: 30px;
+}
+
+button:hover {
+opacity: 1;
+cursor: pointer;
+}
+
+.twitter {
+border-style: solid;
+border-color: deepskyblue;
+margin-top: 20px;
+border-radius: 4px;
+
+background-color: white;
+margin-left: 30px;
+background-position: 1px;
+border-width: 1px;
+width: 90px;
+height: 35px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+-webkit-transition-timing-function:
+ease;
+transition-timing-function: ease;
+}
+
+.twitter:hover {
+background-color: deepskyblue;
+}
+
+.google {
+border-style: solid;
+border-color: darkred;
+margin-top: 19px;
+border-radius: 4px;
+background-color: white;
+margin-left: 17px;
+background-position: 1px;
+border-width: 1px;
+width: 90px;
+height: 35px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+-webkit-transition-timing-function:
+ease;
+
+transition-timing-function: ease;
+}
+
+.google:hover {
+background-color: crimson;
+}
+
+p1 {
+font-family: sans-serif;
+font-weight: bold;
+line-height: 90px;
+margin-left: 30px;
+color: dimgrey;
+font-size: 15px;
+}
+
+input[type=&quot;text&quot;] {
+border-style: solid;
+border-color: lightgrey;
+border-width: 0.5px;
+margin-top: -28px;
+margin-left: 30px;
+width: 350px;
+border-radius: 4px;
+height: 30px;
+outline: none;
+background-color: whitesmoke;
+}
+input[type=&quot;text&quot;]:hover{
+border-style: solid;
+border-color: lightblue;
+border-width: 2.2px;
+
+margin-top: -28px;
+margin-left: 30px;
+width: 350px;
+border-radius: 4px;
+height: 30px;
+transition-timing-function:linear;
+-webkit-transition-timing-
+function:linear;
+-webkit-transition-duration:0.8s;
+transition-duration:0.8s;
+
+outline: none;
+background-color: whitesmoke;
+}
+
+p2 {
+
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 20px;
+line-height: 40px;
+margin-left: 30px;
+color: dimgrey;
+font-size: 15px;
+}
+
+input[type=&quot;email&quot;] {
+border-style: solid;
+border-color: lightgrey;
+border-width: 0.5px;
+margin-top: -5px;
+margin-left: 30px;
+width: 350px;
+
+border-radius: 4px;
+height: 30px;
+
+line-height: 6px;
+outline: none;
+background-color: whitesmoke;
+}
+
+input[type=&quot;password&quot;] {
+border-style: solid;
+border-color: lightgrey;
+border-width: 0.5px;
+margin-top: -5px;
+margin-left: 30px;
+width: 350px;
+border-radius: 4px;
+
+height: 30px;
+outline: none;
+background-color: whitesmoke;
+}
+
+input[type=&quot;password1&quot;] {
+border-style: solid;
+border-color: lightgrey;
+border-width: 0.5px;
+margin-top: 10px;
+margin-left: 30px;
+width: 350px;
+border-radius: 4px;
+height: 30px;
+outline: none;
+background-color: whitesmoke;
+
+}
+
+p3 {
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 20px;
+line-height: 40px;
+margin-left: 30px;
+color: dimgrey;
+font-size: 15px;
+}
+
+p4 {
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 30px;
+
+line-height: 40px;
+margin-left: 30px;
+color: dimgrey;
+font-size: 15px;
+}
+
+.placeholder {
+text-align: center;
+}
+
+input[type=&quot;checkbox&quot;] {
+margin-left: 30px;
+margin-top: 15px;
+width: 15px;
+height: 15px;
+}
+
+a {
+text-decoration: none;
+}
+
+p {
+line-height: 10px;
+}
+
+.create {
+border-style: solid;
+border-width: 1px;
+border-color: pink;
+width: 100px;
+margin-left: 30px;
+height: 36px;
+
+margin-top: 15px;
+border-radius: 4px;
+text-align: center;
+color: white;
+background-color: hotpink;
+font-weight: bold;
+opacity: 0.9;
+}
+
+.create:hover {
+opacity: 1;
+cursor: pointer;
+}
+
+span {
+color: red;
+
+margin-left: 30px;
+line-height: 10px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;script&gt;
+
+function myfun() {
+var a =
+document.getElementById(&quot;ps1&quot;).value;
+var b =
+document.getElementById(&quot;ps2&quot;).value;
+
+var emailid =
+document.getElementById(&quot;email&quot;).value;
+if ((/^\w+([\.-]?\w+)*@\w+([\.-
+]?\w+)*(\.\w{2,3})+$/.test(emailid))||(/^\
+d{10}$/.test(emailid))) { }
+else {
+document.getElementById(&quot;msg3&quot;).inner
+HTML = &quot;**please enter valid email
+adderess**&quot;;
+}
+if (a.length &lt; 6) {
+document.getElementById(&quot;msg1&quot;).inner
+HTML = &quot;**password must contain 6
+characters**&quot;;
+return false;
+}
+if (a != b) {
+
+document.getElementById(&quot;msg1&quot;).inner
+HTML = &quot;**password does not match**&quot;;
+return false;
+}
+if (a == b) {
+document.getElementById(&quot;msg&quot;).innerH
+TML = &quot;**password match**&quot;;
+return false;
+}
+
+}
+
+&lt;/script&gt;
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;h1&gt;sign up&lt;/h1&gt;
+&lt;button type=&quot;button&quot;
+class=&quot;facebook&quot;
+onclick=&quot;window.location.href=&#39;https://en
+-gb.facebook.com/login/&#39;;&quot;&gt;sign
+up with facebook&lt;/button&gt;&lt;br&gt;
+&lt;button type=&quot;button&quot;
+class=&quot;twitter&quot;
+onclick=&quot;window.location.href=&#39;https://tw
+itter.com/login&#39;;&quot;&gt;&lt;img
+src=&quot;twitter.png&quot; height=&quot;30&quot; ;
+width=&quot;70&quot;&gt;&lt;/img&gt;&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;google&quot;
+onclick=&quot;window.location.href=&#39;https://ac
+counts.google.com/servicelogin/signincho
+oser?flowName=GlifWebSignIn&amp;flowEntry
+=ServiceLogin&#39;;&quot;&gt;&lt;img
+
+src=&quot;google.png&quot; height=&quot;28&quot; ;
+width=&quot;35&quot;&gt;&lt;/img&gt;&lt;/button&gt;&lt;br&gt;
+
+&lt;p1&gt;Name&lt;/p1&gt;&lt;br&gt;
+
+&lt;label&gt; &lt;input
+type=&quot;text&quot;&gt;&lt;/label&gt;&lt;br&gt;
+&lt;p2&gt;Email&lt;/p2&gt;&lt;br&gt;
+&lt;label&gt;&lt;input type=&quot;email&quot;
+id=&quot;email&quot; placeholder=&quot;enter valid email
+adderess&quot;&gt;&lt;/label&gt;&lt;br&gt;
+&lt;span id=&quot;msg3&quot;&gt;&lt;/span&gt;&lt;br&gt;
+&lt;p3&gt;password&lt;/p3&gt;&lt;br&gt;
+&lt;label&gt;&lt;input type=&quot;password&quot;
+id=&quot;ps1&quot; placeholder=&quot;must contain
+6+characters&quot;&gt;&lt;/label&gt;&lt;br&gt;
+&lt;span id=&quot;msg1&quot;&gt;&lt;/span&gt;&lt;br&gt;
+
+&lt;p4&gt;re-enter password&lt;/p4&gt;&lt;br&gt;
+&lt;label&gt;&lt;input type=&quot;password&quot;
+id=&quot;ps2&quot;&gt;&lt;/label&gt;&lt;br&gt;
+&lt;span style=&quot;color:green;&quot;
+id=&quot;msg&quot;&gt;&lt;/span&gt;&lt;br&gt;
+&lt;label&gt;&lt;input type=&quot;checkbox&quot;&gt;
+accepting &lt;a href=&quot;#&quot;&gt;terms of
+services&lt;/a&gt;&lt;br&gt;
+&lt;button type=&quot;button&quot;
+onclick=&quot;myfun()&quot; class=&quot;create&quot;&gt;sign
+up&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
